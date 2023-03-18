@@ -3,18 +3,17 @@
 #include <time.h>
 
 /**
- * main - First Function
+ * main - Entry point
  *
- * Return: Last Function
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	char smal;
+	char low;
 
-	for (smal = 'z'; smal >= 'a'; smal--)
-		putchar(smal);
+	for (low = 'z'; low >= 'a'; low--)
+		putchar(low);
 		putchar('\n');
 
 	return (0);
-}
